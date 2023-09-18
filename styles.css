@@ -12,7 +12,7 @@
 }
 
 .calculator {
-  background-color: #22252d;
+  background-color: #333333;
   width: 100%;
   max-width: 375px;
   min-height: 700px;
@@ -72,7 +72,7 @@
 }
 
 .keys {
-  background-color: #292d36;
+  background-color: #242424;
   padding: 1.5rem;
   border-radius: 1.5rem 1.5rem 0 0;
   display: grid;
@@ -93,7 +93,7 @@
   display: block;
   height: 0;
   padding-top: 100%;
-  background-color: #262933;
+  background-color: #141414;
   border-radius: 1rem;
   transition: 0.2s;
   user-select: none;
@@ -111,7 +111,7 @@
 }
 
 .keys .key:hover {
-  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 8px rgba(255, 249, 1, 0.5);
 }
 
 .keys .key.operator span {
